@@ -8,6 +8,17 @@ Pimmodore-64 is just a cool way to put a Raspberry Pi and the Pi Pico inside you
 
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/7549ef08-1d7d-40bd-9ea9-e5123a075ba9" />
 
+To build a Pimmodore-64, you need:
 
+- Build a Keymmodore-64 interfase first, including RGB LED.
+- A Raspberry Pi 3B o 3B+.
+- A MicroSD Card.
+- A 12VDC or greater Power Supply.
+- Power connector and switch
+- Joysticks connectors
+- Analog Audio and Video connectors (optional).
+- HDMI extension cable.
+- 2 USB extension cables.
+- 
 
 
