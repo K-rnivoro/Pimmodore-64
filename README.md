@@ -22,6 +22,6 @@ To build a Pimmodore-64, you need:
 - 2 USB extension cables.
 - A 3D Printer or a 3D Printing service.
 - Dupont cables and connectors.
-- Somre screws.
+- Some screws.
 
 
