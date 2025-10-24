@@ -19,6 +19,6 @@ To build a Pimmodore-64, you need:
 - Analog Audio and Video connectors (optional).
 - HDMI extension cable.
 - 2 USB extension cables.
-- 
+- A 3D Printer or a 3D Printing service.
 
 
