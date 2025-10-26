@@ -37,13 +37,13 @@ Look the the .xlsx file for the detailed BOM.
 
 ## Printing the STL Files
 
-The pieces are designed to fit any version of the legendary "Breadbin" Commodore-64. It won't fit a C-64C (I don't have one to design it).
-The project is 100% reversible, no need to drill, glue or make holes. It uses the same mount holes than the original PCB board.
+The pieces are designed to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
+The project is 100% reversible, no need to drill, make holes or even glue. It uses the same mount system designed for the original PCB board.
 
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not rotate the pieces, print them as provided.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use support «Only from the buildplate», except for the USB Ports who needs «Everywhere support», and just because of the lock arms, not for the holes.
 
-## Connecting the Raspberry Pi 3B to the Pi Pico Interfase.
+## Connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
 
 Besides the necessary USB cable, there is also three wires from the Pico used for sensing what Computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with Commodore and Functions Keys. As you can see, these three pins have to be connected to GPIO 9, 10 and 11 of the R-Pi 3B.
 This is not mandatory, you can always use the manual switching, or even use the "PC Compatible Mode" by pressing Commodore Key and CONTROL.
