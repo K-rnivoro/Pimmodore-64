@@ -65,6 +65,21 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 <img width="1024" height="749" alt="image" src="https://github.com/user-attachments/assets/fbf038da-102d-4fc0-ae69-8972fdebb262" />
 
+## Setting up the BMC64 Emulator
+
+You can use the standard BMC64 version or any other Emulator with your Pimmodore-64, however as explained before, the Mode autoswitching won't work. Also, for BMC64 (regardless it's version) you'll need the Kernal's ROMs.
+
+As explained in the Keymmodore-64 project, the correct .vkm files are necessary in order to have a fully working C-64 Keyboard for all 8-bit Computers able to emulate. Download them from [here](https://github.com/K-rnivoro/Keymmodore-64/blob/master/BMC64%20VKM.zip).
+
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 version, including the ROMS and the VKM files. So you only need to setup a few things.
+However, I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding the BMC64 options.
+
+
+
+
+
+
+
 
 
 
