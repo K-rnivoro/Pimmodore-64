@@ -1,6 +1,6 @@
 # Pimmodore-64
 
-Pimmodore-64 is just a cool way to put a Raspberry Pi and the Pi Pico inside your Commodore-64 case. It is perfect for running BMC64, THE Commodore emulator for the Raspberry Pi 3. However, any VICE version works well too.
+Pimmodore-64 is just a cool way to put a Raspberry Pi 3B and the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) inside your Commodore-64 case. It is perfect for running BMC64, THE Commodore emulator for the Raspberry Pi 3. However, any VICE version works well too.
 
 There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, able to automatically switch the Compatibility Mode according the computer being emulated, including the color of the RGB LED.
 
