@@ -48,7 +48,8 @@ This is not mandatory, you can always use the manual switching, or even use the 
 ## Powering the Raspberry Pi
 
 In order to being "agnostic" to the Power Supply, this project uses a Step Down Power Converter, so you can use almost any Power Brick with more than 5V and 15 Watts, a generic 12VDC and 3A will do.
-Also, using a Converter, prevents the "voltage drop" of the connector and switch. Believe me, I've experimented with 5VDC Power Supllies and I've always had the lighting bolt sign of the Pi, so connecting directly to a 5VDC Power Supply is not advisable (even "Raspberry Certified"). Also, being a Step Down, do not use any PS lower than 6V!
+Also, using a Converter, prevents the "voltage drop" of the connector and switch. Being a Step Down, do not use any PS lower than 6V.
+Believe me, I've experimented with 5VDC Power Supllies and I've always had the lighting bolt sign of the Pi, so avoiding the Converter and connecting directly to a 5VDC Power Supply is not advisable (even "Raspberry Certified").
 ### Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V !!!!
 
 ## Connecting the Joysticks
