@@ -67,6 +67,17 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 <img width="1024" height="749" alt="image" src="https://github.com/user-attachments/assets/fbf038da-102d-4fc0-ae69-8972fdebb262" />
 
+
+## Connecting the analog video and audio outputs
+
+The Raspberry Pi 3B includes analog video and stereo audio output. For that you need to wire a 4-pole 3.5mm plug, to a female RCA connector for video, and a miniplug stereo female connector for audio.
+BMC64 will output NTSC or PAL-B video standard, according what kind of computer are being emulated.
+
+Keep in mind, the 4-pole connector has this (strage) pinout:
+
+<img width="680" height="567" alt="image" src="https://github.com/user-attachments/assets/83d4f272-d50c-495f-8bae-7efe0149050e" />
+
+
 ## Setting up the BMC64 Emulator
 
 You can use the standard BMC64 version or any other Emulator with your Pimmodore-64, however as explained before, the autoswitching Mode feature won't work. Also, for BMC64 (regardless it's version) you'll need the Kernal's ROMs.
