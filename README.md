@@ -1,6 +1,6 @@
 # Pimmodore-64
 
-Pimmodore-64 is just a cool way to put a Raspberry Pi and the Pi Pico inside your Commodore-64 case. It is perfect for running a modified version of BMC64, a Bare Metal Emulator for any 8 bit Commodore computers, although any VICE version works well too.
+Pimmodore-64 is just a cool way to put a Raspberry Pi and the Pi Pico inside your Commodore-64 case. It is perfect for running BMC64, an Emulator for any 8 bit Commodore computers (there is also a modified version). However, any VICE version works well too.
 
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/960b4422-3b1c-4795-b932-7757c56e7850" />
 
@@ -10,7 +10,7 @@ Pimmodore-64 is just a cool way to put a Raspberry Pi and the Pi Pico inside you
 
 To build a Pimmodore-64, you need:
 
-- Build a Keymmodore-64 interfase first, including RGB LED.
+- Build a [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) interfase first, including the RGB LED.
 - A Raspberry Pi 3B o 3B+.
 - A MicroSD Card.
 - A 12VDC or greater Power Supply.
@@ -23,5 +23,7 @@ To build a Pimmodore-64, you need:
 - A 3D Printer or a 3D Printing service.
 - Dupont cables and connectors.
 - Some screws.
+
+Look the the xlsx file for the detailed BOM.
 
 
