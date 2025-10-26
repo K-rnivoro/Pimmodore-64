@@ -6,9 +6,16 @@ There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) m
 
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/960b4422-3b1c-4795-b932-7757c56e7850" />
 
-<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/2955974c-3fd3-40c9-a21b-1fe33072e57c" />
+![Imagen de WhatsApp 2025-10-26 a las 15 33 39_1b9a303e](https://github.com/user-attachments/assets/23cd2011-64b7-4886-ab6b-760bd3c4af8d)
 
-<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/7549ef08-1d7d-40bd-9ea9-e5123a075ba9" />
+<img width="1600" height="738" alt="image" src="https://github.com/user-attachments/assets/3a67bfed-df86-4810-9125-d67cd532ab66" />
+
+
+![Imagen de WhatsApp 2025-10-26 a las 15 33 40_4545215d](https://github.com/user-attachments/assets/dc6c5dfb-e672-4c16-af87-642def7525f0)
+
+
+<img width="1336" height="664" alt="image" src="https://github.com/user-attachments/assets/0cfdd3b2-4b19-47ab-afad-4b643fa7f652" />
+
 
 To build a Pimmodore-64, you need:
 
