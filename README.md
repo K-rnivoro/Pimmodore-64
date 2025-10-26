@@ -73,7 +73,7 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 The Raspberry Pi 3B includes analog video and stereo audio output. For that you need to wire a 4-pole 3.5mm plug, to a female RCA connector for video, and a miniplug stereo female connector for audio.
 BMC64 will output NTSC or PAL-B video standard, according what kind of computer are being emulated.
 
-Keep in mind, the 4-pole connector has this (strage) pinout:
+Keep in mind, the 4-pole miniplug has this (strage) pinout:
 
 <img width="680" height="567" alt="image" src="https://github.com/user-attachments/assets/83d4f272-d50c-495f-8bae-7efe0149050e" />
 
