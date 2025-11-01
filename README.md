@@ -33,7 +33,7 @@ To build a Pimmodore-64, you need:
 - Dupont cables and connectors.
 - Some screws.
 
-Look the the .xlsx file for the detailed BOM.
+Look for the .xlsx file for the detailed BOM.
 
 ## Printing the STL Files
 
