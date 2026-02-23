@@ -6,12 +6,10 @@ There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) m
 
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/960b4422-3b1c-4795-b932-7757c56e7850" />
 
-![Imagen de WhatsApp 2025-10-26 a las 15 33 39_1b9a303e](https://github.com/user-attachments/assets/23cd2011-64b7-4886-ab6b-760bd3c4af8d)
-
-<img width="1600" height="738" alt="image" src="https://github.com/user-attachments/assets/3a67bfed-df86-4810-9125-d67cd532ab66" />
+![Detalle trasero](https://github.com/user-attachments/assets/cd444970-57af-4e29-af0e-3bd7a801e7b9)
 
 
-![Imagen de WhatsApp 2025-10-26 a las 15 33 40_4545215d](https://github.com/user-attachments/assets/dc6c5dfb-e672-4c16-af87-642def7525f0)
+![fotos consola-26](https://github.com/user-attachments/assets/19f236e3-c035-452e-86e8-feb3abb3660d)
 
 
 <img width="1336" height="664" alt="image" src="https://github.com/user-attachments/assets/0cfdd3b2-4b19-47ab-afad-4b643fa7f652" />
