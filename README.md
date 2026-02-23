@@ -1,6 +1,6 @@
-# Pimmodore-64
+<img width="1200" height="150" alt="PImmodore-64" src="https://github.com/user-attachments/assets/166db84b-37bb-4b89-bb54-b0b4eb1b4c45" />
 
-Pimmodore-64 is just a cool way to put a Raspberry Pi 3B and the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) inside your Commodore-64 case. It is perfect for running BMC64, THE Commodore emulator for the Raspberry Pi 3. However, any VICE version works well too.
+Pimmodore-64 is just a cool way to put a Raspberry Pi 3B using the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) inside your Commodore-64 case. It is perfect for running [BMC64](https://accentual.com/bmc64/), THE Commodore emulator for the Raspberry Pi 3. However, any VICE version works well too.
 
 There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, able to automatically switch the Compatibility Mode according the computer being emulated, including the color of the RGB LED.
 
@@ -43,12 +43,12 @@ The project is 100% reversible, no need to drill, make holes or even glue. It us
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not rotate the pieces, print them as provided.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use support «Only from the buildplate», except for the USB Ports who needs «Everywhere support», and just because of the lock arms, not for the holes.
 
-## Connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
+## Flashing and connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
 
-Besides the necessary USB cable, there is also three wires from the Pico used for sensing what Computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with Commodore and Functions Keys. As you can see, these three pins have to be connected to GPIO 9, 10 and 11 of the R-Pi 3B.
-This is not mandatory, you can always use the manual switching, or even use the "PC Compatible Mode" by pressing Commodore Key and CONTROL.
+In my project [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) you can find detailed information how to set up a Raspberry Pi Pico as a keyboard interface. 
 
-<img width="707" height="614" alt="image" src="https://github.com/user-attachments/assets/5cd3c5b0-cce0-44af-b48a-b47a405bd97a" />
+Besides the cable connecting the keyboard and the RGB LED, there are also three wires from the Pico, they are used for sensing what Computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see, these three pins have to be connected to GPIO 9, 10 and 11 of the R-Pi 3B.
+This is not mandatory, if you do not connect those three pins, you can always use the manual switching, including the "PC Compatible Mode".
 
 ### This autoswitch feature works only with the [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, it is not included in the oficial release (at least until now).
 
