@@ -19,7 +19,7 @@ There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) m
 
 To build a Pimmodore-64, you need:
 
-- Build a [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) interfase first, including the RGB LED.
+- Build a [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) interface first, including the RGB LED.
 - A Raspberry Pi 3B o 3B+.
 - A MicroSD Card.
 - A 12VDC or greater Power Supply.
