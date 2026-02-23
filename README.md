@@ -40,6 +40,7 @@ The project is 100% reversible, no need to drill, make holes or even glue. It us
 
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not rotate the pieces, print them as provided.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use support «Only from the buildplate», except for the USB Ports who needs «Everywhere support», and just because of the lock arms, not for the holes.
+The Pico holder has two little support arms where the back edge of the board rests, just cut them before placing in.
 
 ## Flashing and connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
 
