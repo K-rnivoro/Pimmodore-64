@@ -88,14 +88,18 @@ Keep in mind, the 4-pole miniplug has this (strange) pinout:
 For running BMC64 with the Pi connected to the Pico, you'll need the microSD card with:
 
 1 - The BMC64 Emulator. You can use the modified or the standard BMC64 version, however as explained before, the autoswitching Mode feature won't work in the standard version.
+
 2 - The Kernal's ROMs.
+
 3 - The .vkm files in order to have a fully working Keyboard matching all 8-bit emulated computers. Replace the original "positional" .vkm with the new ones, 
 
 ### For entering the BMC64 Menu you need to press F12, so in PC Compatible Mode (green LED) press C= and "Minus" keys, in any Emulator Compatible Mode, presss C= and F7. Left Arrow Key exits the Menu.
 
 1 - Enter BMC64 Menu, go to "Keyboard" and select "Positional".
+
 2 - If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets.
-3 - Go to GPIO and check Config is set in "#1 (Nav+Joy).
+
+3 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
 
 
 In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 autoswitching version, including the ROMS and the VKM files. So you only need to setup a few things.
