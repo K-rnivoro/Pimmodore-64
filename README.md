@@ -27,8 +27,8 @@ To build a Pimmodore-64, you need:
 - A Step-down Power converter
 - Barrel connector
 - Rocker switch
-- Joysticks connectors (male DB-9)
-- Analog Audio and Video connectors (optional).
+- 2 Joysticks connectors (male DB-9)
+- Male 4-pole 3.5mm plug, male RCA and female stereo 3.5mm plug (optional for analog outputs).
 - HDMI extension cable.
 - 2 USB extension cables.
 - A 3D Printer or a 3D Printing service.
@@ -78,7 +78,7 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 The Raspberry Pi 3B includes analog video and stereo audio output. For that you need to wire a 4-pole 3.5mm plug, to a female RCA connector for video, and a miniplug stereo female connector for audio.
 BMC64 will output NTSC or PAL-B video standard, according what kind of computer are being emulated.
-This is optional. Yuu can use your Pimmodore-64 only with HDMI. There is a .stl version or the frame without the analog outputs too. 
+This is optional. You can use your Pimmodore-64 only with HDMI. There is a .stl version or the frame without the analog outputs for that case. 
 
 Keep in mind, the 4-pole miniplug has this (strange) pinout:
 
