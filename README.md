@@ -41,9 +41,10 @@ Look for the .xlsx file for the detailed BOM.
 The pieces are designed to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
 The project is 100% reversible, no need to drill, make holes or even glue. It uses the same mount system designed for the original PCB board.
 
-All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not rotate the pieces, print them as provided.
-There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use support «Only from the buildplate», except for the USB Ports who needs «Everywhere support», and just because of the lock arms, not for the holes.
-The Pico holder has two little support arms where the back edge of the board rests, just cut them before placing in.
+All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not flip the pieces, print them as provided. The .3mf file was made for my Bambulab A1, in case you find it useful.
+There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use "Normal" support and «Only from the buildplate».
+The only piece who need "Tree" support is the USB Ports cover, and just because of the top lock arm, not for the square holes.
+The Pico holder includes a little support, where the board back edge rests, just trim it before placing in.
 
 ## Flashing and connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
 
