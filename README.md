@@ -24,9 +24,10 @@ To build a Pimmodore-64, you need:
 - A Raspberry Pi 3B o 3B+.
 - A MicroSD Card.
 - Any power supply greater than 6VDC, with 15 Watts minimum.
-- A Step Down Power converter
-- Power connector and switch
-- Joysticks connectors
+- A Step-down Power converter
+- Barrel connector
+- Rocker switch
+- Joysticks connectors (male DB-9)
 - Analog Audio and Video connectors (optional).
 - HDMI extension cable.
 - 2 USB extension cables.
