@@ -67,7 +67,7 @@ Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisabl
 
 ## Connecting the Joysticks
 
-Unless you have wired the joysticks ports to the Pi interface as mentioned in the Keymmodore-64 project, you can use the option of connecting them to the Raspberry Pi GPIO pins.
+Unless you have wired the joysticks ports to the Pico interface as mentioned in the Keymmodore-64 project, you can connect them to the Raspberry Pi GPIO pins.
 
 As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-like joysticks are supported by the emulator. Here is the wiring according the documentation:
 
@@ -95,11 +95,16 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 3 - The .vkm files in order to have a fully working Keyboard matching all 8-bit emulated computers. Replace the original "positional" .vkm with the new ones, 
 
-### For entering the BMC64 Menu you need to press F12, so in PC Compatible Mode (green LED) press C= and "Minus" keys, in any Emulator Compatible Mode, presss C= and F7. Left Arrow Key exits the Menu.
+## How to popup the BMC64 Emulator Menu
 
-1 - Enter BMC64 Menu, go to "Keyboard" and select "Positional".
+For entering the BMC64 Menu you need to press F12, as explained in Keymmodore-64 project, in PC Compatible Mode (green LED), you can get F12 by pressing C= and "Minus" key. However, once you are in any Emulator Mode, you can press C= and F7 key for entering the Menu.
+Press Left Arrow Key to go back, or exit the Menu. 
 
-2 - If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets.
+## How to set up BMC64 Emulator
+
+1 - Enter BMC64 Menu, go to "Keyboard" and and change from "Symbolic" to "Positional".
+
+2 - If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
 
 3 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
 
@@ -107,7 +112,9 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 autoswitching version, including the ROMS and the VKM files. So you only need to setup a few things.
 However, I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
+## How to test your keyboard and Joysticks.
 
+I strongly suggest to use the [Anykey program by T-Pau](https://github.com/T-Pau/Anykey). It has separate versions of programs for every 8 bit Commodore Computer. Very useful. 
 
 
 
