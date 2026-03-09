@@ -25,7 +25,7 @@ To build a Pimmodore-64, you need:
 - A MicroSD Card.
 - Any power supply greater than 6VDC, with 15 Watts minimum.
 - A Step-down Power converter
-- Barrel connector
+- Panel Barrel connector
 - Rocker switch
 - 2 Joysticks connectors (male DB-9)
 - Male 4-pole 3.5mm plug, male RCA and female stereo 3.5mm plug (optional for analog outputs).
@@ -60,8 +60,8 @@ This is not mandatory, if you do not connect those three pins, you can always us
 
 In order to being "agnostic" to the Power Supply, this project uses a Step Down Power Converter, so you can use almost any Power Brick with more than 6V and 15 Watts, a generic 12VDC with 2A will do.
 Of course, you need to regulate the Converter BEFORE plug in it to the Raspberry. 5.2VDC will be OK.
-Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into de Pi, therefore the common "yellow ligthing bolt" will appear, and video and audio suttering will happen, even with "Raspberry Certified Power Supplies" 
-Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no barrel plug and switch in between.
+Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into de Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies" 
+Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no switch in between.
 
 ### Remember: Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V first!!!!
 
@@ -74,7 +74,7 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 <img width="1024" height="749" alt="image" src="https://github.com/user-attachments/assets/fbf038da-102d-4fc0-ae69-8972fdebb262" />
 
 
-## Connecting the analog video and audio outputs
+## Connecting the analog video and audio outputs (optional)
 
 The Raspberry Pi 3B includes analog video and stereo audio output. For that you need to wire a 4-pole 3.5mm plug, to a female RCA connector for video, and a miniplug stereo female connector for audio.
 BMC64 will output NTSC or PAL-B video standard, according what kind of computer are being emulated.
@@ -114,7 +114,7 @@ However, I strongly recommend to read the [BMC64 readme](https://github.com/rand
 
 ## How to test your keyboard and Joysticks.
 
-I strongly suggest to use the [Anykey program by T-Pau](https://github.com/T-Pau/Anykey). It has separate versions of programs for every 8 bit Commodore Computer. Very useful. 
+I strongly suggest you to use the [Anykey program by T-Pau](https://github.com/T-Pau/Anykey). It has separate versions of programs for every 8 bit Commodore Computer. Very useful. 
 
 
 
