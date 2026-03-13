@@ -117,8 +117,9 @@ However, I strongly recommend to read the [BMC64 readme](https://github.com/rand
 I strongly suggest you to use the [Anykey program by T-Pau](https://github.com/T-Pau/Anykey). It has separate versions of programs for every 8 bit Commodore Computer. Very useful. 
 
 
+## Manual (en español).
 
-
+I've written a short manual in spanish you can find useful to print (or translate).
 
 
 
