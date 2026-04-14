@@ -91,11 +91,13 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 1 - The BMC64 Emulator. You can use the modified or the standard BMC64 version, however as explained before, the autoswitching Mode feature won't work in the standard version.
 
-2 - The Kernal's ROMs.
+2 - The Kernal ROMs.
 
-3 - The .vkm files in order to have a fully working Keyboard matching all 8-bit emulated computers. Replace the original "positional" .vkm with the new ones, 
+3 - The .vkm files in order to have a fully working Keyboard matching all 8-bit emulated computers. Replace the original "positional" .vkm with the new ones.
 
-## How to popup the BMC64 Emulator Menu
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 autoswitching version, including the Kernal ROMS and the .vkm files. So you only need to setup a few things.
+
+## How to pop-up the BMC64 Emulator Menu
 
 For entering the BMC64 Menu you need to press F12, as explained in Keymmodore-64 project, in PC Compatible Mode (green LED), you can get F12 by pressing C= and "Minus" key. However, once you are in any Emulator Mode, you can press C= and F7 key for entering the Menu.
 Press Left Arrow Key to go back, or exit the Menu. 
@@ -108,9 +110,7 @@ Press Left Arrow Key to go back, or exit the Menu.
 
 3 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
 
-
-In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 autoswitching version, including the ROMS and the VKM files. So you only need to setup a few things.
-However, I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
+I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
 ## How to test your keyboard and Joysticks.
 
