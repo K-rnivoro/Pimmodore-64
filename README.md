@@ -11,10 +11,12 @@ There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) m
 <img width="3912" height="1950" alt="foto Pimmodore 1" src="https://github.com/user-attachments/assets/12aa4db6-4eee-45ad-9b20-e67ff4307cfe" />
 
 
-![Detalle trasero](https://github.com/user-attachments/assets/cd444970-57af-4e29-af0e-3bd7a801e7b9)
+<img width="983" height="254" alt="Detalle_trasero-removebg-preview" src="https://github.com/user-attachments/assets/c936121a-ac01-497a-b60c-25dd4d6c299f" />
 
 
-![fotos consola-26](https://github.com/user-attachments/assets/19f236e3-c035-452e-86e8-feb3abb3660d)
+
+![detalle costado](https://github.com/user-attachments/assets/8c5fca66-c883-403d-a386-5fb22dfa8c98)
+
 
 
 <img width="1336" height="664" alt="image" src="https://github.com/user-attachments/assets/0cfdd3b2-4b19-47ab-afad-4b643fa7f652" />
