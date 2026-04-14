@@ -15,7 +15,8 @@ There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) m
 
 
 
-![detalle costado](https://github.com/user-attachments/assets/8c5fca66-c883-403d-a386-5fb22dfa8c98)
+<img width="668" height="373" alt="detalle_costado-removebg-preview" src="https://github.com/user-attachments/assets/572e6e19-c02b-49ad-ba8e-2bffa1d50175" />
+
 
 
 
