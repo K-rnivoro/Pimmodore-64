@@ -1,4 +1,4 @@
-<img width="1414" height="176" alt="Pimmodore_64-removebg-preview" src="https://github.com/user-attachments/assets/df694f02-2c52-442a-819b-86d7836d88f4" />
+<img width="6558" height="735" alt="pimmodore" src="https://github.com/user-attachments/assets/91677282-b824-40df-a633-5be8ef5eb792" />
 
 
 ## A cool way to put a Raspberry Pi 3B inside your Commodore-64 case.
