@@ -102,7 +102,7 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 autoswitching version, including the Kernal ROMS and the .vkm files. So you only need to setup a few things.
 
-## How to pop-up the BMC64 Emulator Menu
+### Entering the BMC64 Emulator Menu
 
 For entering the BMC64 Menu you need to press F12, as explained in Keymmodore-64 project, in PC Compatible Mode (green LED), you can get F12 by pressing C= and "Minus" key. However, once you are in any Emulator Mode, you can press C= and F7 key for entering the Menu.
 Press Left Arrow Key to go back, or exit the Menu. 
