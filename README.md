@@ -125,8 +125,7 @@ In order to make the whole process easier, I've uploaded a complete version of L
 
 ### Entering the BMC64 Emulator Menu
 
-For entering the BMC64 Menu you need to press F12, as explained in Keymmodore-64 project, in PC Compatible Mode (green LED), you can get F12 by pressing C= and "Minus" key. However, once you are in any Emulator Mode, you can press C= and F7 key for entering the Menu.
-Press Left Arrow Key to go back, or exit the Menu. 
+For entering the BMC64 Menu you need to press CTRL+F7. In PC Compatible Mode (green LED) just press those keys. However, once you are in any Emulator Mode, you can press C= and F7 key for entering the Menu. While browsing the Menu, press Left Arrow Key to go back or exit the Menu. Remember to save the changes before exiting. 
 
 ## How to test your keyboard and Joysticks.
 
