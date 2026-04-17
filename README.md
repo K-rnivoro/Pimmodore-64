@@ -35,7 +35,7 @@ To build a Pimmodore-64, you need:
 - 2 Joysticks connectors (male DB-9)
 - Male 4-pole 3.5mm plug, male RCA and female stereo 3.5mm plug (optional for analog outputs).
 - HDMI extension cable.
-- 2 USB extension cables.
+- 2 USB extension cables (or you can buy a USB 2.0 PC rear panel extension bracket)
 - A 3D Printer or a 3D Printing service.
 - Dupont cables and connectors.
 - Some screws.
