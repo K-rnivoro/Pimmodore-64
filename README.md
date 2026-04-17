@@ -69,7 +69,7 @@ This is not mandatory, if you do not connect those three pins, you can always us
 
 In order to being "agnostic" to the Power Supply, this project uses a Step Down Power Converter, so you can use almost any Power Brick with more than 6V and 15 Watts, a generic 12VDC with 2A will do.
 Of course, you need to regulate the Converter BEFORE plug in it to the Raspberry. 5.2VDC will be OK.
-Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into de Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies" 
+Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into de Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies". 
 Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no switch in between.
 
 ### Remember: Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V first!!!!
@@ -108,11 +108,11 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 5 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
 
-6 - Go to Joysticks Menu. If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
+6 - Go to Joysticks Menu. If you have wired the joystick ports to the Pi's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
 
 I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
-In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Check
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Joysticks are set as Pi's GPIOs.
 
 ### Entering the BMC64 Emulator Menu
 
