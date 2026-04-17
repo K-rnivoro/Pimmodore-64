@@ -1,4 +1,5 @@
-<img width="6558" height="735" alt="pimmodore" src="https://github.com/user-attachments/assets/91677282-b824-40df-a633-5be8ef5eb792" />
+<img width="2623" height="294" alt="pimmodore small" src="https://github.com/user-attachments/assets/cb971eda-29fb-4416-a16a-242b73965030" />
+
 
 
 ## A cool way to put a Raspberry Pi 3B inside your Commodore-64 case to run some emulators, or even operative systems.
