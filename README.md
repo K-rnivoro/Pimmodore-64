@@ -121,7 +121,11 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
-In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Joysticks are set as Pi's GPIOs. Just download, unzip, copy to a FAT32 formatted microSD and boot. 
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Joysticks are set as Pi's GPIOs.
+
+I've added HDMI modes for 1080p (HD) monitors and TVs. Both 60Hz for NTSC emulation, and 50 Hz for PAL emulation. I can't tell for every monitor or TV to work OK with 50 Hz, mostly in NTSC-only regions.
+
+Just download, unzip, copy to a FAT32 formatted microSD and boot. 
 
 ### Entering the BMC64 Emulator Menu
 
