@@ -11,7 +11,8 @@ Also runs perfectly with any Raspberry Pi Operative System, due to having a PC C
 
 There is also a [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, able to automatically switch the Compatibility Mode according the computer being emulated, including the color of the RGB LED.
 
-<img width="3912" height="1950" alt="foto Pimmodore 1" src="https://github.com/user-attachments/assets/12aa4db6-4eee-45ad-9b20-e67ff4307cfe" />
+<img width="1565" height="780" alt="foto Pimmodore small" src="https://github.com/user-attachments/assets/0bcf5e63-2465-44ab-b51a-032fdc13c54c" />
+
 
 
 <img width="983" height="254" alt="Detalle_trasero-removebg-preview" src="https://github.com/user-attachments/assets/c936121a-ac01-497a-b60c-25dd4d6c299f" />
