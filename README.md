@@ -84,6 +84,13 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 <img width="1024" height="749" alt="image" src="https://github.com/user-attachments/assets/fbf038da-102d-4fc0-ae69-8972fdebb262" />
 
+## Enabling the autoswitching feature
+
+In order to the Pico interface to switch between different modes, you need to connect three wires from the Pico to the GPIOs Pi. The GPIOs to be connected are GPIO 9, 10 and 11, as shown in the Keynmmodore readme.
+
+Also, add "enable_pimmodore=1" at the beggining of the cmdline.txt file.
+
+Remember this works only for the modified version of BMC64.
 
 ## Connecting the analog video and audio outputs (optional)
 
@@ -114,7 +121,7 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
-In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Joysticks are set as Pi's GPIOs.
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Joysticks are set as Pi's GPIOs. Just download, unzip, copy to a FAT32 formatted microSD and boot. 
 
 ### Entering the BMC64 Emulator Menu
 
