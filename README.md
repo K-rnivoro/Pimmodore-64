@@ -86,7 +86,7 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 ## Enabling the autoswitching feature
 
-In order to the Pico interface to switch between different modes, you need to connect three wires from the Pico to the GPIOs Pi. The GPIOs to be connected are GPIO 9, 10 and 11, as shown in the Keynmmodore readme.
+In order to the Pico interface to switch between different modes, you need to connect three wires from the GPIOs Pi to the Pico. The GPIOs to be connected are GPIO 9, 10 and 11, as shown in the Keynmmodore readme.
 
 Also, add "enable_pimmodore=1" at the beggining of the cmdline.txt file.
 
