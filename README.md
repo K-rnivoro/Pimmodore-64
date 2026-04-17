@@ -1,7 +1,7 @@
 <img width="6558" height="735" alt="pimmodore" src="https://github.com/user-attachments/assets/91677282-b824-40df-a633-5be8ef5eb792" />
 
 
-## A cool way to put a Raspberry Pi 3B inside your Commodore-64 case, and run some emulators, or operative systems.
+## A cool way to put a Raspberry Pi 3B inside your Commodore-64 case to run some emulators, or even operative systems.
 
 Pimmodore-64 uses the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) so the keyboard is 100% functional. It's a perfect setup for running [BMC64](https://accentual.com/bmc64/), THE Commodore emulator for the Raspberry Pi 3 (any VICE version works well too). 
 Functionally speaking, it's like running an original C-64... or C-128, or Plus/4, or PET Graphics, or PET Business. Keyboard will reconfigure itself, allowing you to access all keys, for ANY of the emulated computers.
