@@ -47,6 +47,10 @@ Look for the .xlsx file for the detailed BOM.
 The pieces are designed to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
 The project is 100% reversible, no need to drill, make holes or even glue. It uses the same mount system designed for the original PCB board.
 
+There are two versions, with and without analog outputs (not everybody wants to use an old CRT TV...).
+
+You can use an analog VGA 4:3 monitor (maybe a CRT one for a nice vintage look), with a HDMI to VGA adapter. Remember to buy an adapter with analog audio output in case you don't wire the Pi's analog outputs. Although you will have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
+
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not flip the pieces, print them as provided. The .3mf file was made for my Bambulab A1, in case you find it useful.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use "Normal" support and «Only from the buildplate».
 The only piece who need "Tree" support is the USB Ports cover, and just because of the top lock arm, not for the square holes.
@@ -102,13 +106,13 @@ For running BMC64 with the Pi connected to the Pico, you'll need the microSD car
 
 4 - Enter BMC64 Menu (as explained below), go to "Keyboard" and and change from "Symbolic" to "Positional".
 
-5 - If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
+5 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
 
-6 - Go to GPIO and check Config is set in "#1 (Nav+Joy)".
+6 - Go to Joysticks Menu. If you have wired the joystick ports to the PI's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
 
 I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
-In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, including the Kernal ROMS and the .vkm files. So you only need to follow the instructions from point 4).
+In order to make the whole process easier, I've uploaded a complete version of Lagoela's BMC64 V4.2 autoswitching version, already configured, including the Kernal ROMS and the .vkm files. Check
 
 ### Entering the BMC64 Emulator Menu
 
