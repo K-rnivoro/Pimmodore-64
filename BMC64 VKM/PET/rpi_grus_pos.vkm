@@ -1,5 +1,5 @@
-# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro. https://github.com/K-rnivoro/Keymmodore-64
-# Tested with BMC v3.9 (https://accentual.com/bmc64/)
+# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro
+# Tested with BMC v5.+
 # Mapped for compatibility to PET Models with Graphics Keyboards only (2000, 3000, 4000, Non-B models).
 #
 # PET Graphics Keyboard has only one character and one graphics PETSCII per key. 
@@ -130,48 +130,62 @@ BackSlash 9 7 8
 #### (Scattered) Symbol Keys "merged" again into C-64 Keys with no PETSCII
 
 #Colon (:) and Brace Left ([)
-SemiColon 5 4 8
+SemiColon 5 4 32
+SemiColon 9 1 144
 KP_Subtract 9 1 8  		/*     Numpad - -> [      */
 
 
 # Semicolon (;) and Brace Right (])
-SingleQuote 6 4 8
+SingleQuote 6 4 32
+SingleQuote 8 2 144
 KP_Add 		8 2 8 		/*     Numpad + -> ]       */
 
 # Comma (,) and Less(<)
-Comma 		7 3 8
+Comma 		7 3 32
+Comma 		9 3 144
 PageUp 		9 3 8 		/*     PgUp -> <           */
 
 
 # Period (.) and Greater (>)
-Period 	  	9 6 8
+Period 	  	9 6 32
+Period 	  	8 4 144
 PageDown 	8 4 8 		/*     PgDown -> >         */
 
 
 # Slash (/) and Question (?)
-Slash 		3 7 8
+Slash 		3 7 32
+Slash 		7 4 144
 KP_Divide 	7 4 8  		/*     Numpad / -> ?       */
 
 
 
 #### (Scattered) Symbols and Numbers "merged" again into C-64 Number Keys
-1       		6 6 8			
+1       		6 6 32
+1       		0 0 144			
 F1   			0 0 8
-2               7 6 8			
+2               7 6 32		
+2	            1 0 144		
 F2	            1 0 8		
-3               6 7 8
+3               6 7 32
+3			    0 1 144
 F3			    0 1 8
-4               4 6 8
+4               4 6 32
+4			    1 1 144
 F4			    1 1 8
-5               5 6 8			
+5               5 6 32			
+5		        0 2 144
 F5		        0 2 8
-6               4 7 8		
+6               4 7 32		
+6				0 3 144
 F6				0 3 8
-7               2 6 8			
+7               2 6 32			
+7               2 6 144			
 Up		        1 2 8
-8               3 6 8			
+8               3 6 32			
+8 		        0 4 144	
 Left 	        0 4 8	
-9               2 7 8
+9               2 7 32
+9	  	        1 4 144
 F9  	        1 4 8
 0               8 6 8 	
 
@@ -181,7 +195,8 @@ F9  	        1 4 8
 
 # Backslash (\) (Using Pound (£) Key)
 Tab 1 3 32
-Tab 1 4 1
+Tab 1 4 129
+
 
 # OFF/REVERSE (Using CTRL Key)
 Insert 9 0 8
@@ -193,21 +208,21 @@ Insert 9 0 8
 
 # Plus (+)
 Dash 7 7 32
-Dash 9 1 1
+Dash 9 1 129
 
 
 # Minus (-)
 Equals 8 7 32
-Equals 8 2 1
+Equals 8 2 129
 KP_Multiply 1 3 8 /*    Numpad * -> \ PETSCII    */
 
 # Multiply (*)
 RightBracket 5 7 32
-RightBracket 8 1 1
+RightBracket 8 1 129
 
 # At (@)
 LeftBracket 8 1 32
-LeftBracket 5 4 1
+LeftBracket 5 4 129
 
 ###### Letter Keys  ######
 # Right PETSCII with any Shift Key.
