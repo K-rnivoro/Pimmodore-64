@@ -1,5 +1,5 @@
-# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro. https://github.com/K-rnivoro/Keymmodore-64
-# Tested with BMC v3.9 (https://accentual.com/bmc64/)
+# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro. https://www.keymmodore.com/
+# Tested with BMC v5.+ (https://accentual.com/bmc64/)
 # Mapped for positional compatibility to C-64 Keyboards.
 #
 # File format:
