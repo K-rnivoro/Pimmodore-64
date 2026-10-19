@@ -1,5 +1,5 @@
-# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro. https://github.com/K-rnivoro/Keymmodore-64
-# Tested with BMC v3.9 (https://accentual.com/bmc64/)
+# Bare Metal Commodore keyboard mapping file suitable for real C64 keyboards using Keymmodore-64 interfase by K-rnivoro. https://www.keymmodore.com/
+# Tested with BMC v5+ (https://accentual.com/bmc64/)
 # Mapped for positional compatibility to C-128 Keyboards.
 # Based on C64 Positional Layout. 
 # Keys not present in C-64 (like NumPad Keys, ESC, TAB) are accessed with Right Shift Key. 
@@ -151,27 +151,32 @@ Shift_L         1 7 2
 
 Dash	        5 0 8
 Equals          5 3 8
-Period          5 4 32
-Period			5 4 1
-SemiColon       5 5 32
-SemiColon       5 5 1
+Period          5 4 8
+#Period         5 4 32
+#Period			5 4 1
+SemiColon       5 5 8
+#SemiColon       5 5 32
+#SemiColon       5 5 1
 LeftBracket     5 6 8
-Comma           5 7 32
-Comma           5 7 1
+Comma           5 7 8
+#Comma           5 7 32
+#Comma           5 7 1
 
 #####################
 # |Bit 6| POUND |  *  |  ; ] | HOME| S_R |  =  | A_UP| / ? |
 
 Insert          6 0 8
 RightBracket    6 1 8
-SingleQuote     6 2 32
-SingleQuote     6 2 1
+SingleQuote     6 2 8
+#SingleQuote     6 2 32
+#SingleQuote     6 2 1
 Home            6 3 8
 Shift_R         6 4 4
 BackSlash       6 5 8
 Del             6 6 8
-Slash           6 7 32
-Slash           6 7 1
+Slash           6 7 8
+#Slash           6 7 32
+#Slash           6 7 1
 
 #####################
 # |Bit 7| 1 ! |A_LFT| CTRL| 2 " |SPACE|  C= |  Q  | R/S |
@@ -213,9 +218,9 @@ F9 			10 0 8
 KP_0 		10 1 8
 KP_Decimal	10 2 8
 Up			10 3 8
-Page_Down	10 4 8
+PageDown    10 4 8
 Left		10 5 8
-End			10 6 8
+End 		10 6 8
 KP_Divide	10 7 8
 
 
