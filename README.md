@@ -68,7 +68,7 @@ At my project [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) you ca
 Besides the cable connecting the keyboard and the RGB LED, there are also three wires from the Pico, they are used for sensing what type of computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see, these three pins have to be connected to GPIO 9, 10 and 11 of the R-Pi 3B.
 This is not mandatory, if you do not connect those three pins, you can always use the manual switching, including the "PC Compatible Mode".
 
-### This autoswitch feature works only with the [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, it is not included in the oficial release (at least until now).
+### This autoswitch feature works only with the old [modified version of BMC64](https://github.com/slagoela/bmc64) made by Sergio Lagoela, it is not included in the oficial release (at least until now).
 
 ## Powering the Raspberry Pi
 
@@ -89,11 +89,11 @@ As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-lik
 
 ## Enabling the autoswitching feature
 
-In order to the Pico interface to switch between different modes, you need to connect three wires from the GPIOs Pi to the Pico. The GPIOs to be connected are GPIO 9, 10 and 11, as shown in the Keymmodore readme.
+In order to the Pico interface to switch automatically, you need to connect three wires from the GPIOs Pi to the Pico. The GPIOs to be connected are GPIO 9, 10 and 11, as shown in the Keymmodore readme.
 
 Also, add "enable_pimmodore=1" at the beggining of the cmdline.txt file.
 
-Remember this works only for the modified version of BMC64.
+Remember this works only for the old, modified version of BMC64. For newer v5.+ version, the autoswitching feature does not work, but you can always switch manually.
 
 ## Connecting the analog video and audio outputs (optional)
 
