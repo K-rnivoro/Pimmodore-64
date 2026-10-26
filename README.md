@@ -103,19 +103,26 @@ Keep in mind, the 4-pole miniplug has this (strange) pinout:
 
 ## How to set up BMC64 Emulator:
 
-For running BMC64 with the Pi connected to the Pico, you'll need the microSD card with:
+For running BMC64 with the autswitching feature and joysticks, you need the following:
 
-1 - The BMC64 Emulator.
+1 - The BMC64 Emulator in the microSD card.
 
-2 - The Kernal ROMs. These are not included in the standard version of BMC64. However you can download from the VICE repository.
+2 - The Kernal ROMs also in the microSD. These are not included in the standard version of BMC64. However you can download from the VICE repository.
 
-3 - Enter BMC64 Menu (as explained below), go to "Keyboard" change Layout to "Commodore"
+3 - Boot and enter BMC64 Menu (as explained below), go to "Keyboard" change Layout to "Commodore"
 
 4 - Still in Keyboard options, go to Mapping and select "Pimmodore".
 
-5 - Go to Joysticks Menu. If you have wired the joystick ports to the Pi's GPIOs, go to "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively. If you have wired the ports to the Pico instead, select Keyset 1 and Keyset 2 and then configure those Keysets below in the same menu.
+5 - If you have wired the joystick ports to the Pi's GPIOs, you need to do two things:
+  a) Go to GPIO Config and select Config #1 or #4.
+  b) Go to "Joysticks" then "Joyport" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively.
 
-You need to do steps 3,4 and 5 for every computer emulated.
+6 - If you have wired the ports to the Pico instead, do this instead:
+  a) Select Keyset 1 and Keyset 2 respectively.
+  b) Configure those Keysets below in the same menu, moving each joysticks accordingly.
+
+
+You need to do steps from 3 to 6 for every computer emulated.
 
 I strongly recommend to read the [BMC64 readme](https://github.com/randyrossi/bmc64/blob/master/README.md) file for a good understanding of the BMC64 options.
 
