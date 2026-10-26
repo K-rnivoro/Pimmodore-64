@@ -81,7 +81,7 @@ Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisabl
 
 Unless you have wired the joysticks ports to the Pico interface as mentioned in the Keymmodore-64 project, you can connect them to the Raspberry Pi GPIO pins.
 
-As explained in the [BMC64 website](https://accentual.com/bmc64/), two Atari-like joysticks are supported by the emulator. Here is the wiring according the documentation:
+As explained in the [BMC64 User Guide](https://github.com/randyrossi/bmc64/blob/master/docs/USER_GUIDE.md#input--gpio), two Atari-like joysticks are supported by the emulator. Here is the wiring according the documentation:
 
 <img width="1024" height="749" alt="image" src="https://github.com/user-attachments/assets/fbf038da-102d-4fc0-ae69-8972fdebb262" />
 
