@@ -89,6 +89,21 @@ As explained in the [BMC64 User Guide](https://github.com/randyrossi/bmc64/blob/
 
 In order to the Pico interface to switch automatically, besides connecting the wires from the GPIOs Pi to the Pico. You need to add "enable_gpio_machine signal=code" at the first line of cmdline.txt file, as explained in the [BMC docs](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md)
 
+Pimmodore-64 follows the same convention for LED color that BMC64 uses for [Machine LED](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-led) in GPIO Machine Signal options, despite using [Machine Code](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-code) as signaling. However unlike BMC64, it uses white color for PC Mode.
+
+
+| Mode            | GP18 | GP20 | GP19 | LED Color |
+|-----------------|------|------|------|-----------|
+| C64             | 0    | 0    | 1    |    Red    |
+| C128            | 0    | 1    | 0    |   Blue    |
+| PET Business    | 0    | 1    | 1    |  Magenta  |
+| PET Graphics    | 1    | 0    | 0    |  Yellow   |
+| VIC-20          | 1    | 0    | 1    |   Green   | 
+| Plus/4          | 1    | 1    | 0    |   Cyan    |
+| PC Mode         | 1    | 1    | 1    |   White   |
+
+Regardless autoswitching being active, manual switching using Keyboard shortcuts is always possible, as explained in Keymmodore-64 project.
+
 
 ## Connecting the analog video and audio outputs (optional)
 
