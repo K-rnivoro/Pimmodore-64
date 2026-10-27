@@ -50,11 +50,11 @@ Look for the .xlsx file for the detailed BOM.
 The pieces are designed with Sketchup to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
 The project is 100% reversible, no need to drill, make holes or even glue. It uses the same mount system designed for the original PCB board.
 
-There are two versions according video and audio outputs: With and without analog outputs (not everybody wants to use an old CRT TV...).
+There are a few options of frames, depending two choices:
+- With or without Composite Video and Analog Audio outputs (useful for a CRT TV).
+- Pico interfase attached to the top part of the case (best for joystick connected to the Pi), or to the bottom part of the case (best for joystick connected to the Pico).
 
-Also, there are two versions depending where the Pico interfase is attached: Over the bottom part of the case, or in the top part of the case like Keymmodore-64.
-
-You can use an analog VGA 4:3 monitor (maybe a CRT one for a nice vintage look), with a HDMI to VGA adapter. Remember to buy an adapter with analog audio output in case you don't wire the Pi's analog outputs. Although you will have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
+Keep in mind even without analog outputs, you can use a VGA 4:3 monitor using an HDMI to VGA adapter (maybe a CRT for a nice vintage look). Remember to buy an adapter with analog audio output. Also you may have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
 
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not flip the pieces, print them as provided. The .3mf file was made for my Bambulab A1, in case you find it useful.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use "Normal" support and «Only from the buildplate».
