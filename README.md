@@ -65,14 +65,13 @@ At my project [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) you ca
 
 Besides the cables connecting the keyboard and the RGB LED, Pimmodore-64 uses the [GPIO-MACHINE_SIGNAL](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md) feature of BMC64 from v5.4.3.
 You need 3 wires from the Pi to the Pico, they are used for sensing what type of computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see in Keymmodore-64 documentation, those three pins have to be connected from GPIO 9, 10 and 11 of the R-Pi 3B.
-This is not mandatory, if you do not connect those pins, you can always use the manual switching, including the "PC Compatible Mode", but if you do Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you turn off and on, or reset the Emulator.
-
+This is not mandatory, if you don't connect those pins, Pimmodore will boot in "PC Compatible Mode" and you can manual switch to any other mode. If you wire these, Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you power cycle the Pi, or reset the Emulator.
 
 ## Powering the Raspberry Pi
 
 In order to being "agnostic" to the Power Supply, this project uses a Step Down Power Converter, so you can use almost any Power Brick with more than 6V and 15 Watts, a generic 12VDC with 2A will do.
 Of course, in case you use a variable Converter, you need to regulate the it BEFORE plug in it to the Raspberry. 5.2VDC will be OK.
-Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into de Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies". 
+Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into the Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies". 
 Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no switch or even barrel connector in between.
 
 ### Remember: Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V first!!!!
