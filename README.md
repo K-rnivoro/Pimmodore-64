@@ -61,13 +61,13 @@ There is no need for «Everywhere» support if you 3D Printer is able to do good
 The only piece who need "Tree" support is the USB Ports cover, and just because of the top lock arm, not for the square holes.
 The Pico holder includes a little support, where the board back edge rests, just trim it before placing in.
 
-## Flashing and connecting the Keymmodore-64 interface Pi Pico, to the Pi 3B.
+## Flashing and connecting the Keymmodore-64 Pico interface, to the Pi 3B.
 
 At my project [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) you can find detailed information of how to set up a Raspberry Pi Pico as C-64 keyboard interface. 
 
-Besides the cables connecting the keyboard and the RGB LED, Pimmodore-64 uses the [GPIO-MACHINE_SIGNAL](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md) feature of BMC64 from v5.4.3.
-You need 3 wires from the Pi to the Pico, they are used for sensing what type of computer is BMC64 emulating. With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see in Keymmodore-64 documentation, those three pins have to be connected from GPIO 9, 10 and 11 of the R-Pi 3B.
-This is not mandatory, if you don't connect those pins, Pimmodore will boot in "PC Compatible Mode" and you can manual switch to any other mode. If you wire them, Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you power cycle the Pi, or reset the Emulator.
+Besides the wiring for keyboard and RGB LED, you need 3 wires from the Pi to the Pico. They are used for sensing what type of computer is being emulated by BMC64. Pimmodore-64 uses the [GPIO-MACHINE_SIGNAL](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md) feature of BMC64 from v5.4.3.
+With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see in Keymmodore-64 documentation, those three pins have to be connected from GPIO 9, 10 and 11 of the R-Pi 3B.
+This is not mandatory, if you don't connect those pins, Pimmodore will boot in "PC Compatible Mode" and you can manual switch to any other mode from there. If you wire them, Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you power cycle the Pi, or reset the Emulator.
 
 ## Powering the Raspberry Pi
 
