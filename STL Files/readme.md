@@ -1,1 +1,1 @@
-There are two ways to attach the Pico interfase: Over the right frame of the bottom part of the case, or using the same holder than Keymmodore-64 attached to the upper part of the case, which is also included here.
+There are two ways to attach the Pico interfase: Over the right frame of the bottom part of the case, or using the same holder than Keymmodore-64 attached to the top part of the case, which is also included here.
