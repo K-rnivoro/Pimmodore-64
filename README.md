@@ -54,7 +54,7 @@ There are a few options of frames, depending two choices:
 - With or without Composite Video and Analog Audio outputs (useful for a CRT TV).
 - Pico interfase attached to the top part of the case (best option for joystick connected to the Pi), or to the bottom part of the case (best option for joystick connected to the Pico).
 
-Keep in mind even without analog outputs, you can use a VGA monitor using an HDMI to VGA adapter (maybe a 4:3 CRT for a nice vintage look). Remember to buy an adapter with analog audio output. Also you may have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
+Keep in mind even without analog outputs, you can use a VGA monitor using an HDMI to VGA adapter (maybe a 4:3 CRT for a nice vintage look). Remember to buy an adapter with analog audio output. Also you may have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64/blob/master/docs/USER_GUIDE.md#video--timing)
 
 All pieces are easy to print with a 0.4mm nozzle and a 0.2 mm layer height. For better results, do not flip the pieces, print them as provided. The .3mf file was made for my Bambulab A1, in case you find it useful.
 There is no need for «Everywhere» support if you 3D Printer is able to do good «bridging» (most printers do). Just use "Normal" support and «Only from the buildplate».
