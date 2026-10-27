@@ -3,11 +3,11 @@
 
 ### Important Note regarding the new version:
 
-As of version 5.4.3, BMC64 features [native support](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) for Pimmodore-64! The keyboard configuration files (.vkm) have been included in the official release and can be selected directly from the menu. Additionally, Keymmodore-64 (and therefore Pimmodore-64) implements BMC64's new [GPIO Machine Signal](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-code) feature for autoswitching. In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both model of PET keyboard, making them more intuitive to use.
+As of version 5.4.3, [BMC64](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) features native support for Pimmodore-64! The keyboard configuration files (.vkm) have been included in the official release and can be selected directly from the menu. Additionally, Keymmodore-64 (and therefore Pimmodore-64) implements BMC64's new [GPIO Machine Signal](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md#machine-code) feature for autoswitching. In order to maintain consistency between the new BMC64 Machine Signaling and the Keymmodore-64 firmware, some changes have been made regarding LED color coding. Also thanks to the new VICE 3.4 format for .vkm, there are improvements related to the use of Shift for both model of PET keyboard, making them more intuitive to use.
 
 ## A sleek solution for mounting a Raspberry Pi 3B within a Commodore 64 chassis to run BMC64 emulator, or even any operating system.
 
-Pimmodore-64 uses the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) so the keyboard is 100% functional. It's a perfect setup for running [BMC64](https://accentual.com/bmc64/), THE Commodore emulator for the Raspberry Pi 3 (any VICE version works well too). 
+Pimmodore-64 uses the [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) keyboard interface (Pi Pico) so the keyboard is 100% functional. It's a perfect setup for running [BMC64](https://github.com/randyrossi/bmc64), THE Commodore emulator for the Raspberry Pi 3 (any VICE version works well too). 
 Functionally speaking, it's like running an original C-64... or C-128, or Plus/4, or PET Graphics, or PET Business. Keyboard will reconfigure itself, allowing you to access all keys, for ANY of the emulated computers.
 
 Also runs perfectly with any Raspberry Pi Operative System, due to having a PC Compatible layout too.
@@ -130,7 +130,7 @@ For running BMC64 with the autswitching feature and joysticks, you need the foll
 
 3 - Boot and enter BMC64 Menu (as explained below), go to "Keyboard" change Layout to "Commodore"
 
-4 - Still in Keyboard options, go to Mapping and select "Pimmodore" (Thanks @retromin for adding [Pimmodore support](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) to BMC64).
+4 - Still in Keyboard options, go to Mapping and select "Pimmodore" (Thanks [aminch](https://github.com/aminch/) for adding [Pimmodore support](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) to BMC64).
 
 5 - If you have wired the joystick ports to the Pi's GPIOs, you need to do two things:
   - Go to GPIO Config and select Config #1 (Nav+Joy).
