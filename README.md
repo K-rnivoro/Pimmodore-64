@@ -128,13 +128,13 @@ For running BMC64 with the autswitching feature and joysticks, you need the foll
 4 - Still in Keyboard options, go to Mapping and select "Pimmodore".
 
 5 - If you have wired the joystick ports to the Pi's GPIOs, you need to do two things:
-  - a) Go to GPIO Config and select Config #1 (Nav+Joy).
-  - b) Go to "Joyports" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively.
+  - Go to GPIO Config and select Config #1 (Nav+Joy).
+  - Go to "Joyports" and select GPIO Bank 1 and GPIO Bank 2 for Port 1 and Port 2 respectively.
 
 6 - If you have wired the ports to the Pico, do this instead:
-  - a) Go to "Joyports" and select Custom Keyset 1 and Custom Keyset 2 for Port 1 and Port 2 respectively.
-  - b) Go to Configure Keysets 1 below in the same menu, and map Joystick 1 following the instructions.
-  - c) Do the same for Keyset 2.
+  - Go to "Joyports" and select Custom Keyset 1 and Custom Keyset 2 for Port 1 and Port 2 respectively.
+  - Go to Configure Keysets 1 below in the same menu, and map Joystick 1 following the instructions.
+  - Do the same for Keyset 2.
 
 
 You need to do steps from 3 to 6 for every computer emulated.
