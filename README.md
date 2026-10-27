@@ -52,7 +52,7 @@ The project is 100% reversible, no need to drill, make holes or even glue. It us
 
 There are two versions according video and audio outputs: With and without analog outputs (not everybody wants to use an old CRT TV...).
 
-Also, there are two versions depending where the Pico interfase is attached: Over the bottom part of the case, or in the upper part of the case like Keymmodore-64.
+Also, there are two versions depending where the Pico interfase is attached: Over the bottom part of the case, or in the top part of the case like Keymmodore-64.
 
 You can use an analog VGA 4:3 monitor (maybe a CRT one for a nice vintage look), with a HDMI to VGA adapter. Remember to buy an adapter with analog audio output in case you don't wire the Pi's analog outputs. Although you will have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
 
