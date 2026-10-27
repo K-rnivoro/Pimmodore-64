@@ -157,7 +157,7 @@ I strongly suggest you to use the [Anykey program by T-Pau](https://github.com/T
 
 ## Manual (en español).
 
-I've written a short manual in spanish you can find useful to print (or translate).
+I've written a short manual in spanish you can find useful to print (or translate), although it hasn't been updated yet.
 
 
 
