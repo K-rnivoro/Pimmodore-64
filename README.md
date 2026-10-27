@@ -68,18 +68,17 @@ The Pico holder includes a little support, where the board back edge rests, just
 
 At my project [Keymmodore-64](https://github.com/K-rnivoro/Keymmodore-64) you can find detailed information of how to set up a Raspberry Pi Pico as C-64 keyboard interface. 
 
-Besides the wiring for keyboard and RGB LED, you need 3 wires from the Pi to the Pico. They are used for sensing what type of computer is being emulated by BMC64. Pimmodore-64 uses the [GPIO-MACHINE_SIGNAL](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md) feature of BMC64 from v5.4.3.
-With this information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see in Keymmodore-64 documentation, those three pins have to be connected from GPIO 9, 10 and 11 of the R-Pi 3B.
-This is not mandatory, if you don't connect those pins, Pimmodore will boot in "PC Compatible Mode" and you can manual switch to any other mode from there. If you wire them, Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you power cycle the Pi, or reset the Emulator.
+Besides the wiring for keyboard and RGB LED, you need 3 wires from the Pi to the Pico. They are used for sensing what type of computer is being emulated by BMC64. Pimmodore-64 uses the [GPIO-MACHINE_SIGNAL](https://github.com/randyrossi/bmc64/blob/master/docs/GPIO_MACHINE_SIGNAL.md) feature of BMC64. With that information, the Pico can switch to the corresponding mode, avoiding the manual switch with the C= and Function Keys. As you can see in Keymmodore-64 documentation, those three pins have to be connected to GPIO 9, 10 and 11 of the R-Pi 3B.
+This is not mandatory, if you don't connect those pins, Pimmodore will boot in "PC Compatible Mode" and you can manually switch to any other Mode from there. If you wire them, Pimmodore-64 will switch to the corresponding Keyboard Mode everytime you power cycle the Pi, or reset the Emulator.
 
 ## Powering the Raspberry Pi
 
 In order to being "agnostic" to the Power Supply, this project uses a Step Down Power Converter, so you can use almost any Power Brick with more than 6V and 15 Watts, a generic 12VDC with 2A will do.
-Of course, in case you use a variable Converter, you need to regulate the it BEFORE plug in it to the Raspberry. 5.2VDC will be OK.
-Don't try to use a 5VDC power supply directly, the voltage drop of the connector and switch will result in 4.9VDC or less coming into the Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies". 
-Believe me, avoiding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no switch or even barrel connector in between.
+Of course, in case you use a variable Converter, you need to regulate it BEFORE plug into the Raspberry. 5.2VDC will be OK to compensate some drop at the MicroUSB connector.
+Don't try to use a 5VDC power supply directly, the voltage drop of the barrel connector and switch will result in 4.9VDC or less coming into the Pi, therefore the common yellow ligthing bolt sign will appear, and video and audio stuttering will happen, even with "Raspberry Certified Power Supplies". 
+Believe me, disregarding the Converter and using a 5VDC Power Supply is not advisable, unless you connect it directly, with no switch and no barrel connector in between.
 
-### Remember: Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V first!!!!
+### Remember: Do not plug your Raspberry Pi until you have regulated the Voltage output to 5.2V or less first!!!!
 
 ## Connecting the Joysticks
 
