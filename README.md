@@ -127,7 +127,7 @@ For running BMC64 with the autswitching feature and joysticks, you need the foll
 
 3 - Boot and enter BMC64 Menu (as explained below), go to "Keyboard" change Layout to "Commodore"
 
-4 - Still in Keyboard options, go to Mapping and select "Pimmodore".
+4 - Still in Keyboard options, go to Mapping and select "Pimmodore" (Thanks @retromin for adding [Pimmodore support](https://github.com/randyrossi/bmc64/releases/tag/v5.4.3) to BMC64).
 
 5 - If you have wired the joystick ports to the Pi's GPIOs, you need to do two things:
   - Go to GPIO Config and select Config #1 (Nav+Joy).
