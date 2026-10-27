@@ -47,10 +47,12 @@ Look for the .xlsx file for the detailed BOM.
 
 ## Printing the STL Files
 
-The pieces are designed to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
+The pieces are designed with Sketchup to fit any version of the legendary "Breadbin" Commodore-64 case. It won't fit a C-64C (I don't have one to design it).
 The project is 100% reversible, no need to drill, make holes or even glue. It uses the same mount system designed for the original PCB board.
 
-There are two versions, with and without analog outputs (not everybody wants to use an old CRT TV...).
+There are two versions according video and audio outputs: With and without analog outputs (not everybody wants to use an old CRT TV...).
+
+Also, there are two versions depending where the Pico interfase is attached: Over the bottom part of the case, or in the upper part of the case like Keymmodore-64.
 
 You can use an analog VGA 4:3 monitor (maybe a CRT one for a nice vintage look), with a HDMI to VGA adapter. Remember to buy an adapter with analog audio output in case you don't wire the Pi's analog outputs. Although you will have to create some custom HDMI modes, as explained in [BMC64 page](https://github.com/randyrossi/bmc64)
 
